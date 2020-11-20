@@ -15,35 +15,35 @@
 
 
 # 使用方式
-> \> git sublmodule add [git@github.com:ss32324/dl_lib.git](https://github.com/ss32324/dl_lib) dl_lib
+> \> git sublmodule add [git@github.com:fizz0113/python-dl-lib.git](https://github.com/fizz0113/python-dl-lib) dl_lib
 
 ## 可使用
 - [層](https://github.com/ss32324/dl_lib/blob/master/Layer.py)
-    - [連接層](https://github.com/ss32324/dl_lib/blob/master/layer/FullyConnection.py)
+    - [連接層](./layer/FullyConnection.py)
         - Dense
         - Conv
-    - [激活層](https://github.com/ss32324/dl_lib/blob/master/layer/Activation.py)
+    - [激活層](./layer/Activation.py)
         - Sigmoid
         - Softmax
         - ReLU
-    - [正規層](https://github.com/ss32324/dl_lib/blob/master/layer/Normalization.py)
+    - [正規層](./layer/Normalization.py)
         - BatchNorm
         - LayerNorm
-    - [池化層](https://github.com/ss32324/dl_lib/blob/master/layer/Pool.py)
+    - [池化層](./layer/Pool.py)
         - MaxPooling
     - 平坦層
         - Flatten
     - ？？層
         - Dropout
-- [優化器](https://github.com/ss32324/dl_lib/blob/master/Optimizer.py)
+- [優化器](./Optimizer.py)
     - SGD
     - MBGD
     - Adam
-- [損失函數](https://github.com/ss32324/dl_lib/blob/master/LossFunc.py)
+- [損失函數](./LossFunc.py)
     - MSE
     - CategoricalCrossEntropy
     - BinaryCrossEntropy
-- [標籤](https://github.com/ss32324/dl_lib/blob/master/PreData.py)
+- [標籤](./PreData.py)
     - OneHot
 
 ## 引入
