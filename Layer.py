@@ -47,7 +47,7 @@ class Normalization(Layer):
         self.var = self.mov_var = 0
 
     def setAxis(self, inputs):
-        return [-1]
+        return (-1,)
 
     def forward(self, inputs):
         self.axis = self.setAxis(inputs)
